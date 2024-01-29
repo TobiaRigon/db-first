@@ -25,7 +25,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 | weight | INT | -- |
 | category | VARCHAR(32) | -- |
 | usage | VARCHAR(32) | -- |
-| n_axes | TINYINT | -- |
+| n_axes | TINYINT | default(2) |
 | max_load_weight | INT | -- |
 | seats | TINYINT | -- |
 | decibel | INT | -- |
